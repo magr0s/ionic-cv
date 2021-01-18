@@ -39,7 +39,7 @@
 </template>
 
 <script lang="ts">
-import { 
+import {
   IonGrid,
   IonRow,
   IonCol
