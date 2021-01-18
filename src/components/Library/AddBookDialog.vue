@@ -94,7 +94,7 @@ export default defineComponent({
     IonLabel,
     IonInput,
     IonButtons,
-    IonButton,
+    IonButton
   },
 
   setup () {
@@ -112,8 +112,6 @@ export default defineComponent({
 
     const save = async (): Promise<void> => {
       addBook(form);
-
-      console.log(form)
 
       await dismiss();
     }
