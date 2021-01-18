@@ -24,7 +24,7 @@ const library = reactive({
     books
 });
 
-const getBooks = () => library.books || [];
+const getBooks = (): Book[] => library.books || [];
 const addBook = (payload: Book) => library.books.push(payload);
 const removeBook = (idx: number) => library.books.splice(idx, 1);
 
